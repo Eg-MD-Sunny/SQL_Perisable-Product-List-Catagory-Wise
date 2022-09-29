@@ -5,7 +5,6 @@ select  pv.Id [PVID],
 		(case when  pvm.CategoryId in (25) then 'Meat' 
 		when  pvm.CategoryId in (61) then 'Egg'
 		when  pvm.CategoryId in (1235) then 'Fish'
-	--	when  pvm.CategoryId in (9) and pv.name like '%Tofu%' then 'Tofu'
 		else null end)[Category]
 
 from ProductVariant pv
@@ -26,5 +25,4 @@ group by pv.Id,
 		(case when  pvm.CategoryId in (25) then 'Meat' 
 		when  pvm.CategoryId in (61) then 'Egg'
 		when  pvm.CategoryId in (1235) then 'Fish'
-		--when  pvm.CategoryId in (9) and pv.name like '%Tofu%' then 'Tofu'
 		else null end)
