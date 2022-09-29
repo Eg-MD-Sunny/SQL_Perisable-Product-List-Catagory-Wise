@@ -20,8 +20,3 @@ group by pv.Id,
 		pv.Name,
 		pv.NameBn,
 		pvp.CostPrice
-		
-
-		--(25,61,1235,9)
-
----Meat - 25

@@ -28,7 +28,3 @@ group by pv.Id,
 		when  pvm.CategoryId in (1235) then 'Fish'
 		--when  pvm.CategoryId in (9) and pv.name like '%Tofu%' then 'Tofu'
 		else null end)
-
-		--(25,61,1235,9)
-
----Meat - 25
